@@ -1,0 +1,205 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+
+    --primary-color:orange; /*Variable*/
+}
+
+
+body{
+
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    line-height: 1.5;
+    
+
+}
+
+
+
+.video {
+    width: 100%;
+    height: auto;
+}
+
+
+.showcase{
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+.content{
+
+    position: absolute;
+    font-weight: 2000;
+    font-size: 2vw;
+
+}
+
+.fsociety{
+
+    font-weight: 5000;
+    
+}
+
+@media screen and (max-width: 50vw) {
+    .content {
+        font-size: 5vw;
+    }
+  }
+
+
+
+.btn{
+
+    display: inline-block;
+    border: 1px solid rgb(255, 230, 0);
+    border-width: 2px;
+    text-decoration: none;
+    padding: 4px 4px;
+    color: rgb(0, 217, 255);
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255, 0.1);
+    margin-top: 30px;
+
+
+
+}
+
+.btn:hover{
+    transform: scale(0.98);
+}
+
+
+.info{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: black;
+    color: cornsilk;
+
+}
+
+
+.about{
+
+    width: 75%;
+    margin: 0 auto;
+}
+
+.about h1{
+
+    text-align: center;
+    padding: 10px;
+    font-size: 3rem;
+}
+
+.about p{
+
+    text-align: justify;
+    border: 2px solid rgb(255, 60, 0);
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+}
+
+
+.members{
+
+    width: 75%;
+    margin-top: 20px;
+
+}
+
+.maincrew{
+
+    text-align: center;
+    font-size: 3rem;
+
+}
+
+
+.mem{
+
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+.memhead{
+
+
+    margin: 10px;
+    color: rgb(255, 238, 0);
+    text-decoration: underline;
+}
+
+.image{
+
+
+    width: 50%;
+    height: auto;
+    margin: 40px;
+    
+}
+
+.memp{
+
+    text-align: justify;
+    padding: 10px;
+    border: 2px solid rgb(255, 60, 0);
+    border-radius: 15px;
+    color: rgb(248, 248, 248);
+    font-size: 1.1rem;
+}
+
+
+.link{
+
+    display: block;
+    font-size: 12px;
+    color: rgb(140, 242, 255);
+}
+
+
+
+.social{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+
+
+}
+
+
+.whatsapp{
+
+
+    margin-left: 5vw;
+    margin-right: 5vw;
+
+
+}
+
